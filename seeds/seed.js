@@ -19,7 +19,6 @@ const seedDatabase = async () => {
     });
   }
 
-  process.exit(0);
 };
 
-seedDatabase();
+modeul.exports = seedDatabase;
